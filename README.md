@@ -17,7 +17,7 @@ Runs on Windows 11 (and any OS with Python 3). No dependencies.
 * Supports images, videos, audio, documents, RAW formats, archives, fonts, and more
 * Fully recursive directory scanning
 * Multithreaded for high performance
-* Writes all changes to `renamer_log.txt`
+* Writes all changes to `File Rename Log.txt`
 * Safe: renames only when detection is unambiguous
 * Pure Python, zero external libraries
 
