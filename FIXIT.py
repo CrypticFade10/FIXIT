@@ -153,7 +153,7 @@ def walk_all_files(root: Path):
 
 def main():
     root = Path(os.getcwd())
-    log_path = root / "renamer_log.txt"
+    log_path = root / "File Rename Log.txt"
 
     files = list(walk_all_files(root))
     total = len(files)
@@ -179,3 +179,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
