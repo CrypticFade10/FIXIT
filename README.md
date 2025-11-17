@@ -68,7 +68,7 @@ The script will:
 1. Scan the current folder and all subdirectories
 2. Detect each file’s real type via header analysis
 3. Rename with the correct extension
-4. Log every change to `renamer_log.txt`
+4. Log every change to `File Rename Log.txt`
 
 ---
 
@@ -89,7 +89,7 @@ FIXIT reads the first 64 bytes of each file and:
 All rename operations are appended to:
 
 ```
-renamer_log.txt
+File Rename Log.txt
 ```
 
 Format:
